@@ -10,10 +10,16 @@ package threadrelay;
  */
 public class Runner extends Thread{
     int percorso=0;
+    Staffetta stf;
     
+    Runner(Staffetta s){
+        stf = s;
+    }
     
     @Override
     public void run(){
-        percorso++;
+        for (int i = 0; i < 100; i++){
+            
+        }
     }
 }

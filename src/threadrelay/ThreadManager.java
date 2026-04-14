@@ -9,16 +9,18 @@ package threadrelay;
  * @author bernicchi.davide
  */
 public class ThreadManager {
-Runner rnr1 = new Runner();
-    Runner rnr2 = new Runner();
-    Runner rnr3 = new Runner();
-    Runner rnr4 = new Runner();
-    Staffetta stf = new Staffetta(); 
+    Runner rnr1;
+    Runner rnr2;
+    Runner rnr3;
+    Runner rnr4;
+    Staffetta stf; 
     
+    
+    ThreadManager(Staffetta s, Runner r1, Runner r2, Runner r3, Runner r4){
+        stf = s;
+    }
     
     void Corri(){
         rnr1.start();
-        
     }
-
 }

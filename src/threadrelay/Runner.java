@@ -9,5 +9,11 @@ package threadrelay;
  * @author bernicchi.davide
  */
 public class Runner extends Thread{
-
+    int percorso=0;
+    
+    
+    @Override
+    public void run(){
+        percorso++;
+    }
 }

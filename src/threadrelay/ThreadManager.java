@@ -9,5 +9,5 @@ package threadrelay;
  * @author bernicchi.davide
  */
 public class ThreadManager {
-    
+
 }

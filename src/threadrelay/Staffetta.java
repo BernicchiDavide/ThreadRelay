@@ -9,5 +9,13 @@ package threadrelay;
  * @author bernicchi.davide
  */
 public class Staffetta {
+    Runner proprietario;
     
+    void setProprietario(Runner r){
+        proprietario = r;
+    } 
+    
+    Runner getProprietario(){
+        return proprietario;
+    }
 }

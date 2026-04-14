@@ -8,6 +8,6 @@ package threadrelay;
  *
  * @author bernicchi.davide
  */
-public class Runner {
-    
+public class Runner extends Thread{
+
 }
